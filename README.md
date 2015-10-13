@@ -19,8 +19,8 @@ Start:
 0. Files `remoteApi.so`, `vrep.py`, `vrepConst.py` have to be copied in this folder
 1. Start V-REP
 2. Place `LineFollower` model to scene
-3. Remove all Lua program from `LineFollower`
-4. Start Flesk web-application `python app.py`
+3. Remove all Lua `Child script` from `LineFollower` object (http://www.v-rep.eu/helpFiles/en/childScripts.htm)
+4. Start Flask web-application `python app.py`
 5. Open browser at `http://localhost:5000`
 6. Start V-REP simulation
 7. Click on control buttons at web-page to controler LineFollower at V-REP scene
